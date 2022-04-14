@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Redirecting...</title>
+    </head>
+    <body onload="decrementer()">
+        <h1 id="h1">Redirecting you to a new page shortly...</h1>
+        <script>
+            j = 0
+            function decrementer() {
+                setInterval(q, 1000)
+            }
+            function q() {
+                j = j++;
+                console.log(j);
+                if (j = 4) {
+                    window.location.href = "https://www.khanacademy.org/math/cc-seventh-grade-math/cc-7th-probability-statistics/cc-7th-compound-events/v/compound-sample-spaces";
+                }
+            }
+    </script>
+  </body>
+</html>
